@@ -7,6 +7,7 @@ public class Fibonnaci {
 		int finbonaciAt8 = finbonnaci(8);
 		System.out.println(finbonnaci(20));
 		System.out.println(improveFibonacci(20));
+		System.out.println(improveFibonacci2(20));
 	}
 	
 	public static int finbonnaci(int x) {
@@ -30,6 +31,19 @@ public class Fibonnaci {
 			counter++;
 		}
 		
+		return fn;
+	}
+	
+	static int f1 = 0, f2 = 1, fn = 1;
+	public static int improveFibonacci2(int x) {
+		int count = 2;
+		
+		if (count <= x) {
+			fn = f1 + f2;
+			f1 = f2;
+			f2 = fn;
+			improveFibonacci2(x - 1);
+		}
 		return fn;
 	}
 	
