@@ -4,7 +4,13 @@ public class Fibonnaci {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int finbonaciAt8 = finbonnaci(8);
+		
+//		for (int i = 0; i < 20; i++) {
+//			System.out.println("at " + i + "  " + finbonnaci(i));
+//			System.out.println("at " + i + "  " + improveFibonacci(i));
+//			System.out.println("at " + i + " improveFibonacci2: " + improveFibonacci2(i) + "\n");
+//		}
+		
 		System.out.println(finbonnaci(20));
 		System.out.println(improveFibonacci(20));
 		System.out.println(improveFibonacci2(20));

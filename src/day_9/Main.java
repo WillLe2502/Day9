@@ -10,7 +10,7 @@ public class Main {
 		System.out.println(improveFibonacci(5));
 		
 		//O(n * m) n is number of loop and m is number of index in string
-		String[] strs1 = { "flower", "flow", "flight" };
+		String[] strs1 = { "flower", "aalow", "flight" };
 		String[] strs2 = { "dog", "racecar", "car" };
 		
 		System.out.println(longestSameString(strs1));
